@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  transition: .5s;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  color: grey;
+  font-family: sans-serif;
+  font-size: 50px;
+  transition: .5s;
+}
+
+h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#grey {
+  background: grey;
+}
+
+#orange {
+  background: orangered;
+}
+
+#blue {
+  background: blue;
+}
+
+#green {
+  background: green;
+}
+
+#yellow {
+  background: yellow;
+}
+
+.txt-colors {
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bkg-colors {
+  display: flex;
+  position: absolute;
+  top:80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bkg-color-title {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#dark-green {
+  background: #2F4F4F;
+}
+
+#dark-orange {
+  background: #602105;
+}
+
+#dark-blue {
+  background: #090E51;
+}
+
+#dark-yellow {
+  background: #76710A;
+}
+
+#dark-red {
+  background: #7D0E19;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+  #title {
+font-size: 30px;
+  }
+}
